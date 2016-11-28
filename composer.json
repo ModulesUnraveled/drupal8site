@@ -23,7 +23,9 @@
         "drush/drush": "~8.0",
         "drupal/console": "~1.0",
         "drupal/admin_toolbar": "<= 1.15 || ^1.17",
-        "drupal/google_analytics": "^2.0"
+        "drupal/google_analytics": "^2.0",
+        "drupal/pathauto": "^1.0",
+        "drupal/drupal8_zymphonies_theme": "^1.0"
     },
     "require-dev": {
         "behat/mink": "~1.7",
@@ -32,7 +34,8 @@
         "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
         "mikey179/vfsStream": "~1.2",
         "phpunit/phpunit": "~4.8",
-        "symfony/css-selector": "~2.8"
+        "symfony/css-selector": "~2.8",
+        "drupal/devel": "^1.0"
     },
     "conflict": {
         "drupal/drupal": "*"
